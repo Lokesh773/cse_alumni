@@ -1,0 +1,106 @@
+<html>
+<body>
+    <style>
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(105, 88, 88);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+body {
+ background-image: url("https://www.aivanet.com/wp-content/uploads/2018/12/bigstock-Man-Having-an-Online-Registrat-73738582-720x537.jpg");
+ 
+  background-attachment: fixed;
+}
+input[type=submit] {
+  width: 50%;
+  background-color: #06e90e;
+  color: rgb(235, 223, 223);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+form{
+  margin-left:20%;
+   
+  width :55%;
+  
+  background-attachment: fixed;
+  background-image:url('https://wallpapercave.com/wp/VMdd2q3.jpg');
+}
+label{
+  color: rgb(246, 246, 248);
+  font-weight: bold;
+  font-size:20px;
+}
+h1{
+  color: rgb(37, 37, 107);
+  font-weight: bold;
+  font-size:30px;
+}
+</style>
+<center><h1>Event Feedback</h1></center>
+<form >
+<br>
+    <center><label for="eventname">Event Name</label></center>
+<br>
+<center><input type="text" name="userName"/></center>
+<br>
+<br>
+    <center><label for="dept">Department</label></center>
+<br>
+<center>
+ <select name="userDept">
+<option>Select</option>
+<option>CSE</option>
+<option>ECE</option>
+<option>EEE</option>
+<option>MECH</option>
+<option>CIVIL</option>
+<option>MBA</option>
+<option>Int MSC</option>
+<option>Int Sciences</option>
+</select>
+</center>
+<br>
+    <center><label for="email">Alumni ID</label></center>
+<br>
+<center><input type="text" name="userEmail"/></center>
+<br>
+    <center><label for="eventses">Event Session</label></center>
+<br>
+<center>
+<select name="userSession">
+<option>Select</option>
+<option>Morning</option>
+<option>Afternoon</option>
+<option>Evening</option>
+</select>
+</center>
+<br>
+    <center><label for="feedback">Event Feedback</label></center>
+<br>
+<center>
+<select name="userfeedback">
+<option>Select</option>
+<option>Good</option>
+<option>Average</option>
+<option>Below Average</option>
+</select>
+</center>
+<center><input type="submit" value="Submit"/></center>
+
+</form>
+</body>
+</html>
